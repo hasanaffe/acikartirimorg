@@ -1,0 +1,33 @@
+<?php
+	echo "1. Gateway interface: " . $_SERVER['GATEWAY_INTERFACE'] . "<br />";
+	echo "2. Server address: " . $_SERVER['SERVER_ADDR'] . "<br />";
+	echo "3. Server name: " . $_SERVER['SERVER_NAME'] . "<br />";
+	echo "4. Server software: " . $_SERVER['SERVER_SOFTWARE'] . "<br />";
+	echo "6. Server protocol: " . $_SERVER['SERVER_PROTOCOL'] . "<br />";
+	echo "7. Request method: " . $_SERVER['REQUEST_METHOD'] . "<br />";
+	echo "8. Request time: " . $_SERVER['REQUEST_TIME'] . "<br />";
+	echo "9. Request time float: " . $_SERVER['REQUEST_TIME_FLOAT'] . "<br />";
+	echo "10. Server port: " . $_SERVER['SERVER_PORT'] . "<br />";
+	echo "11. Http accept: " . $_SERVER['HTTP_ACCEPT'] . "<br />";
+	echo "12. Http accept charset: " . $_SERVER['HTTP_ACCEPT_CHARSET'] . "<br />";
+	echo "13. Http accept encoding: " . $_SERVER['HTTP_ACCEPT_ENCODING'] . "<br />";
+	echo "14. Http connection: " . $_SERVER['HTTP_CONNECTION'] . "<br />";
+	echo "15. Http host: " . $_SERVER['HTTP_HOST'] . "<br />";
+	echo "16. Server signature: " . $_SERVER['SERVER_SIGNATURE'] . "<br />";
+	echo "17. Http user agent: " . $_SERVER['HTTP_USER_AGENT'] . "<br />";
+	echo "18. Remote address: " . $_SERVER['REMOTE_ADDR'] . "<br />";
+	echo "19. Script name : " . $_SERVER['SCRIPT_NAME'] . "<br />";
+	echo "20. Remote port: " . $_SERVER['REMOTE_PORT'] . "<br />";
+	echo "21. Request uri: " . $_SERVER['REQUEST_URI'] . "<br />";
+	echo "22. Script filename: " . $_SERVER['SCRIPT_FILENAME'] . "<br />";
+	echo "23. Server admin: " . $_SERVER['SERVER_ADMIN'] . "<br />";
+	echo "24. PHP_SELF: " . $_SERVER['PHP_SELF'] . "<br />";
+	echo "25. __FILE__: " . __FILE__ . "<br />";
+	echo "26. __LINE__: " . __LINE__ . "<br />";
+	echo "27. __DIR__: " . __DIR__ . "<br />";
+	echo "28. __FUNCTION__: " . __FUNCTION__ . "<br />";
+	echo "29. __CLASS__: " . __CLASS__ . "<br />";
+	echo "30. __TRAIT__: " . __TRAIT__ . "<br />";
+	echo "31. __METHOD__: " . __METHOD__ . "<br />";
+	echo "32. __NAMESPACE__: " . __NAMESPACE__ . "<br />";
+?> 
